@@ -6,15 +6,14 @@ import requests from "../utils/requests";
 
 export default function Home({results}) {
   return (
-    <>
+    <div>
       <Head>
         <title>Web Shows</title>
-        <link rel="icon" href="/favicon.icon" />
       </Head>
       <Header />
       <Nav />
       <Results results={results} />
-    </>
+    </div>
   );
 }
 

@@ -3,11 +3,7 @@ module.exports = {
   purge: ["./pages/**/*.{js,ts,jsx,tsx}", "./components/**/*.{js,ts,jsx,tsx}"],
   darkMode: false, // or 'media' or 'class'
   theme: {
-    extend: {
-      Screen: {
-        "3xl": "2000px",
-      },
-    },
+    extend: {},
   },
   variants: {
     extend: {},
